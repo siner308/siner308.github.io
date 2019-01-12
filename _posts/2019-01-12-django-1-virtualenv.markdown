@@ -6,7 +6,7 @@ avatar: "img/authors/siner.jpeg"
 image: "img/django-words.png"
 categories:
 - django
-date:   2019-01-06 21:57:00
+date:   2019-01-12 16:33:00
 ---
 There is two requirements to start Django.
 
