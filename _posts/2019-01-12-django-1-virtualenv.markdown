@@ -1,12 +1,16 @@
 ---
+layout: post
 title:  "Start Django (1)"
 subtitle: "with virtualenv"
 author: "Siner"
-avatar: "img/authors/siner.jpeg"
-image: "img/django-words.png"
-categories:
-- django
-date:   2019-01-12 16:33:00
+header-img: "img/django/django-virtualenv.jpg"
+catalog: true
+tags:
+    - django
+    - virtualenv
+    - python
+    - webserver
+date:   2019-01-12
 ---
 There is two requirements to start Django.
 
@@ -83,6 +87,8 @@ Just execute **python manage.py runserver** located in myproject with **ip**, **
   python manage.py runserver 0.0.0.0:8000
   ```
 ![image](https://user-images.githubusercontent.com/34048253/51082269-01b0ed80-1747-11e9-84fe-e045bdb44691.png)
+
+## 9) ALLOWED_HOSTS
 ![image](https://user-images.githubusercontent.com/34048253/51082279-5d7b7680-1747-11e9-9674-6e49b2eb9612.png)
 
 When we trying to connect **hostip:8000**, we will get something yellow screen with ALLOWED_HOSTS error.
@@ -93,10 +99,10 @@ ALLOWED_HOSTS option will be exist in **myproject/settings.py**
 
 So go there, and edit.
 ![image](https://user-images.githubusercontent.com/34048253/51082397-76852700-1749-11e9-9d75-9a4853fee34d.png)
-
 ![image](https://user-images.githubusercontent.com/34048253/51082295-be0ab380-1747-11e9-87cb-fca9b5e81e32.png)
 
 
+## 10) Result
 After editing, runserver again, we can get result below. 
 ![image](https://user-images.githubusercontent.com/34048253/51082317-0f1aa780-1748-11e9-91b7-2a6c99a98b4b.png)
 
