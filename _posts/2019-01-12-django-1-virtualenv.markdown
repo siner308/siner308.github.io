@@ -12,9 +12,9 @@ tags:
     - webserver
 date:   2019-01-12
 ---
-There is two requirements to start Django.
+Two things are required to start Django.
 
-- **virtualenv** (virtual environment) for executing Django
+- **virtualenv** (virtual environment) which provides isolated Python environments to execute Django
 - **Django** installed in virtualenv
 
 install these two things and start the Django project.
