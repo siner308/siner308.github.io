@@ -1,17 +1,3 @@
----
-layout: post
-title:  "Start Django (1)"
-subtitle: "with virtualenv"
-author: "Siner"
-header-img: "img/django/django-virtualenv.jpg"
-catalog: true
-tags:
-    - django
-    - virtualenv
-    - python
-    - webserver
-date:   2019-01-12
----
 Two things are required to start Django.
 
 - **virtualenv** which provides isolated Python environments to execute Django
@@ -105,4 +91,3 @@ So go there, and edit.
 ## 10) Result
 After editing, runserver again, we can get result below. 
 ![image](https://user-images.githubusercontent.com/34048253/51082317-0f1aa780-1748-11e9-91b7-2a6c99a98b4b.png)
-
