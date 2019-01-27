@@ -253,7 +253,7 @@ siner@siner-desktop:~/crawling/images/10$
 
 ## 4) 이미지 합치기
 
-위에서 얻은 이미지들을 합치기위해 **스크립트**를 작성해봅니다.
+위에서 얻은 이미지들을 합치기 위해 **스크립트**를 작성해봅니다.
 
 ```python
 from PIL import Image
