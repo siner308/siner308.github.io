@@ -31,7 +31,8 @@
 ![image](https://user-images.githubusercontent.com/34048253/51798901-3b144d80-225d-11e9-8003-4a7594c3fe02.png)
 ![image](https://user-images.githubusercontent.com/34048253/51798919-8a5a7e00-225d-11e9-80c4-a5d6a23da80a.png)
 
-**Headers >> General >> Request URL** 에 나타난 주소로 한번 들어가보면, **Preview** 에서 확인했던 타일이 제대로 나타나는 것이 보입니다.
+**Headers >> General >> Request URL** 에 나타난 주소로 한번 들어가보면,<br>
+**Preview** 에서 확인했던 타일이 제대로 나타나는 것이 보입니다.
 
 이제 Request URL의 **규칙**을 찾아봅시다.
 
@@ -52,7 +53,8 @@ https://gris.gg.go.kr:8888/grisgis/rest/services/bdsMap_Cbnd_Cache/MapServer/til
 그렇다면 맨 마지막에 있는 숫자는 **X축**의 데이터,<br>
 뒤에서 세 번째에 있는 10이라는 숫자는 **화면배율**을 나타내는 것으로 추측이 가능합니다.
 
-X축 데이터가 **동쪽으로 갈수록 커지는지 작아지는지**를 확인하기 위해 **network 탭**을 켜둔 채로 실제 지도를 동쪽으로 살짝 이동해봅니다.
+X축 데이터가 **동쪽으로 갈수록 커지는지 작아지는지**를 확인하기 위해<br>
+**network 탭**을 켜둔 채로 실제 지도를 동쪽으로 살짝 이동해봅니다.
 
 ![image](https://user-images.githubusercontent.com/34048253/51799046-8a5b7d80-225f-11e9-9b4d-44e972ccaec4.png)
 
