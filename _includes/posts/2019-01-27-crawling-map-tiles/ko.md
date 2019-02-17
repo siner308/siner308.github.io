@@ -87,9 +87,6 @@ def screenshot(arr):
 
     driver = webdriver.Chrome("./chromedriver", chrome_options=chrome_options)
 
-    k = 0
-    l = 0
-
     while(j < arr[3] + 1):
         i = arr[0]
         while(i < arr[1] + 1):
@@ -100,9 +97,7 @@ def screenshot(arr):
             print("save %s_%s.png" % (str(j), str(i)))
 
             i = i + 1
-            k = k + 1
         j = j + 1
-        l = l + 1
 
 
 def start():
