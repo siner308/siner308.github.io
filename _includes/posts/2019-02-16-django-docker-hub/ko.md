@@ -1,4 +1,4 @@
-이번 장에서는 `Django 공식 이미지`를 사용하여 `도커의 기본 개념`에 대해 설명하겠습니다.<br>
+이번 장에서는 `Django 공식 이미지`를 사용하여 `Docker의 기본 개념`에 대해 설명하겠습니다.<br>
 Custom 이미지를 생성하여 Django를 배포하는 방법에 대해서는 다음 장에서 다루겠습니다.
 
 ---
@@ -18,8 +18,8 @@ Docker Hub에서는 컨테이너 이미지를 받아서 사용하고, 자신만�
 아래의 Description 내용을 살펴보면 Django 이미지가 2016년 말에 `Deprecated`되었음을 확인할 수 있습니다.
 ![image](https://user-images.githubusercontent.com/34048253/52911229-5c101180-32e4-11e9-898c-0f34d4470633.png)
 
-`Deprecated`되었다는 것은, 직접 Django 이미지를 만들지 않는 이상은 Docker에서는 새로운 버전의 Python과 Django를 사용할수 없게 되었다는 것을 의미합니다.<br>
-일단 이번 포스팅에서는 기존의 Django 이미지를 사용해서 배포함으로써, 일반적인 Docker의 사용에 대해 다뤄보겠습니다.
+`Deprecated`되었다는 것은, 직접 Django 이미지를 만들지 않는 이상은 Docker에서는 새로운 버전의 Python과 Django를 사용할 수 없게 되었다는 것을 의미합니다.<br>
+일단 이번 포스팅에서는 기존의 Django 이미지를 사용해서 배포함으로써, Docker의 기본적인 사용방법에 대해 다뤄보겠습니다.
 
 ---
 
@@ -65,7 +65,7 @@ docker run --name my_django_container -v "$PWD":/usr/src/app -w /usr/src/app -d 
 
 위의 명령어는 다음과 같은 뜻을 지닙니다.
 
-- `docker run` : 도커 이미지를 실행합니다. (local에 이미지가 없으면 pull 하고 실행.)
+- `docker run` : Docker 이미지를 실행합니다. (local에 이미지가 없으면 pull 하고 실행.)
 - `--name my_django_container` : 컨테이너 이름은 **my_django_container** 으로 합니다.
 - `-v "$PWD":/usr/src/app` : 호스트의 **$PWD(현재 경로)**와 컨테이너의 **/usr/src/app**을 연결해줍니다.
 - `-w /usr/src/app` : 컨테이너 내부의 **워킹 디렉토리**를 /usr/src/app 으로 설정합니다.
@@ -79,7 +79,7 @@ docker run --name my_django_container -v "$PWD":/usr/src/app -w /usr/src/app -d 
 ![image](https://user-images.githubusercontent.com/34048253/52415825-70f1e580-2b2b-11e9-85a5-a9876bf33dd8.png)
 
 하지만 지난번과 마찬가지로 `ALLOWED_HOSTS`에러가 나타났네요.<br>
-프로젝트를 생성하고 아무것도 안했으니 그럴수밖에요!
+프로젝트를 생성하고 아무것도 안했으니 그럴 수밖에요!
 
 하지만 우리는 -v와 -w 옵션을 통해서 컨테이너 내부에서 생성된 Django 프로젝트를 컨테이너 밖에서도 접근 가능하게 했기 때문에, 수정하여 반영하는 것이 가능합니다.
 
@@ -91,9 +91,9 @@ docker run --name my_django_container -v "$PWD":/usr/src/app -w /usr/src/app -d 
 
 ![image](https://user-images.githubusercontent.com/34048253/52416726-9f70c000-2b2d-11e9-9eb9-fb164097b865.png)
 
-수정 결과 제대로된 화면이 나타나는 것을 확인할 수 있습니다.
+수정 결과 제대로 된 화면이 나타나는 것을 확인할 수 있습니다.
 
-이전의 로켓모양이 아닌 밋밋한 화면으로 나타나는 것은 `Deprecated`상태인 Django 이미지에서 사용한 `Python 3.4.5`때문입니다.
-`Python 3.4.5`를 사용함으로써 `Django 1.10.4`가 설치되었고, 오래된 버전의 빌드화면이 나타나게 되었네요.
+이전의 [로켓모양](https://user-images.githubusercontent.com/34048253/51082317-0f1aa780-1748-11e9-91b7-2a6c99a98b4b.png)이 아닌 밋밋한 화면으로 나타나는 것은 `Deprecated`상태인 Django 이미지에서 사용한 `Python 3.4.5`때문입니다.
+`Python 3.4.5`를 사용함으로써 `Django 1.10.4`가 설치되었고, 오래된 버전의 빌드화면이 나타나네요.
 
-다음 시간에는 이러한 버전문제를 해결하기 위해 `나만의 장고 이미지 만들기`를 해보도록 하겠습니다.
+다음 시간에는 이러한 버전문제를 해결하기 위해 `나만의 Django 이미지 만들기`를 해보도록 하겠습니다.
