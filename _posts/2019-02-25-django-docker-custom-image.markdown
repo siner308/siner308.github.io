@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Start Django (3)"
-subtitle: "with my custom docker image"
+title:  "나만의 Docker 이미지를 만들어서 Django 서비스 배포하기"
+subtitle: ""
 author: "Siner"
 header-img: "img/post_headers/2019-02-25-django-docker-custom-image.jpg"
 catalog: true
@@ -17,10 +17,4 @@ multilingual: true
 <div class="zh post-container">
     {% capture about_zh %}{% include posts/2019-02-25-django-docker-custom-image/ko.md %}{% endcapture %}
     {{ about_zh | markdownify }}
-</div>
-
-<!-- English Version -->
-<div class="en post-container">
-    {% capture about_en %}{% include posts/2019-02-25-django-docker-custom-image/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
 </div>

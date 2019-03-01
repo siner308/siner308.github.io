@@ -181,6 +181,96 @@ body, html {
 	background-size: 22px;
 }
 
+.i-python:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 40px;
+	background: url("../images/logo-python.png") 50% 50% no-repeat;
+	background-size: 22px;
+}
+
+.i-django:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 40px;
+	background: url("../images/logo-django.png") 50% 50% no-repeat;
+	background-size: 50px;
+}
+
+.i-selenium:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 40px;
+	background: url("../images/logo-selenium.png") 50% 50% no-repeat;
+	background-size: 30px;
+}
+
+.i-docker:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 40px;
+	background: url("../images/logo-docker.jpg") 50% 50% no-repeat;
+	background-size: 30px;
+}
+
+.i-keras:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 40px;
+	background: url("../images/logo-keras.jpg") 50% 50% no-repeat;
+	background-size: 30px;
+}
+
+.i-pandas:before {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 40px;
+	background: url("../images/logo-pandas.jpg") 50% 50% no-repeat;
+	background-size: 60px;
+}
+
+.i-matplotlib:before {
+	content: "";
+	display: block;
+	width: 150px;
+	height: 40px;
+	background: url("../images/logo-matplotlib.png") 50% 50% no-repeat;
+	background-size: 90px;
+}
+
+.i-jupyter:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 40px;
+	background: url("../images/logo-jupyter.png") 50% 50% no-repeat;
+	background-size: 30px;
+}
+
+.i-markdown:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 40px;
+	background: url("../images/logo-markdown.png") 50% 50% no-repeat;
+	background-size: 30px;
+}
+
+.i-postgres:before {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 40px;
+	background: url("../images/logo-postgres.png") 50% 50% no-repeat;
+	background-size: 30px;
+}
+
 /******* Hux Branch *****/
 
 /* navbar - dark mode */
@@ -258,7 +348,7 @@ header img{
 }
 .cbp_tmlabel ul li.skill{
 	overflow: auto;
-	margin-top: 9px;
+	margin-top: 0px;
 	border-top: 1px solid #eeefef;
 }
 .cbp_tmlabel ul li.skill>span,

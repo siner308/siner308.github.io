@@ -2,7 +2,7 @@
 이번 장에서는 `나만의 Django 이미지`를 직접 만들어서 배포해보고, `docker hub`에 업로드까지 해보겠습니다.<br>
 
 본 포스팅의 프로젝트 `소스`는 `아래의 링크`를 통해 얻을 수 있습니다.<br>
-[siner308/django-with-custom-image](https://github.com/siner308/django-with-custom-image)
+[github.com/siner308/django-with-custom-image](https://github.com/siner308/django-with-custom-image)
 
 ![docker](https://user-images.githubusercontent.com/34048253/53354047-5a3ff100-3969-11e9-8404-a99701c0f35a.jpg)
 

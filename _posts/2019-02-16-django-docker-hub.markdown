@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Start Django (2)"
-subtitle: "with django official image"
+title:  "Django 공식 이미지로 설명하는 Docker의 기본적인 사용법"
+subtitle: ""
 author: "Siner"
 header-img: "img/post_headers/2019-02-16-django-docker-hub.png"
 catalog: true
@@ -11,16 +11,10 @@ tags:
     - Django
     - Docker
 date:   2019-02-16
-multilingual: true
+multilingual: false
 ---
 <!-- Chinese Version -->
 <div class="zh post-container">
     {% capture about_zh %}{% include posts/2019-02-16-django-docker-hub/ko.md %}{% endcapture %}
     {{ about_zh | markdownify }}
-</div>
-
-<!-- English Version -->
-<div class="en post-container">
-    {% capture about_en %}{% include posts/2019-02-16-django-docker-hub/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
 </div>
