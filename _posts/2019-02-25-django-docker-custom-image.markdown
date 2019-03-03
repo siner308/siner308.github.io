@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "나만의 Docker 이미지를 만들어서 Django 서비스 배포하기"
+title:  "나만의 도커(Docker) 이미지를 만들어서 장고(Django) 서비스 배포하기"
 subtitle: ""
 author: "Siner"
 header-img: "img/post_headers/2019-02-25-django-docker-custom-image.jpg"

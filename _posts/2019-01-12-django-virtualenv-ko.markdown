@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Virtualenv로 Django 시작하기"
+title:  "가상환경(Virtualenv)로 장고(Django) 시작하기"
 subtitle: ""
 author: "Siner"
 header-img: "img/django/django-virtualenv.jpg"
