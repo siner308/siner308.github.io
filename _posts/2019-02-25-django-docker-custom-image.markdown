@@ -11,7 +11,7 @@ tags:
     - Django
     - Docker
 date:   2019-02-25
-multilingual: true
+multilingual: false
 ---
 <!-- Chinese Version -->
 <div class="zh post-container">

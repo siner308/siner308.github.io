@@ -10,6 +10,7 @@ tags:
     - Django
     - Virtual Environment
     - Python
+    - English
 date:   2019-01-12
 multilingual: false
 ---
