@@ -181,6 +181,33 @@ body, html {
 	background-size: 22px;
 }
 
+.i-js:before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../images/logo-js.png") 50% 50% no-repeat;
+	background-size: 22px;
+}
+
+.i-css:before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../images/logo-css.png") 50% 50% no-repeat;
+	background-size: 22px;
+}
+
+.i-html:before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../images/logo-html.png") 50% 50% no-repeat;
+	background-size: 22px;
+}
+
 .i-python:before {
 	content: "";
 	display: block;

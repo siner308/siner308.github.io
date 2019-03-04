@@ -61,8 +61,8 @@ jQuery(document).ready(function($) {
                     //if scrolling up...
                     if (currentTop > 0 && $('.navbar-custom').hasClass('is-fixed')) {
                         $('.navbar-custom').addClass('is-visible');
-                    } else {
-                        $('.navbar-custom').removeClass('is-visible is-fixed');
+//                    }else {
+//                        $('.navbar-custom').removeClass('is-visible is-fixed');
                     }
                 } else {
                     //if scrolling down...

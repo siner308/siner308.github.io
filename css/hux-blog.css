@@ -1056,11 +1056,15 @@ samp {
   display: block;
   font-weight: 300;
   margin: 10px 0 0;
+  color: black;
+  text-shadow: 1px, 1px;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
     font-size: 80px;
+    color: black;
+    text-shadow: 1px 1px;
   }
 }
 .intro-header .post-heading h1 {
