@@ -1,7 +1,7 @@
 # Site settings
 title: Siner's DevLog
 SEOTitle: Siner's DevLog
-header-img: img/home/stack.png
+header-img: /img/home/stack.png
 email: siner308@gmail.com
 description: "Siner's DevLog"
 keyword: "Siner, backend, 개발자, 블로그"
