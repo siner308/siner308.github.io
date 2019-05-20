@@ -3,7 +3,7 @@ layout: post
 title:  "Start Django with Virtualenv"
 subtitle: ""
 author: "Siner"
-header-img: "/img/django/django-virtualenv.jpg"
+header-img: "img/django/django-virtualenv.jpg"
 catalog: true
 header-mask:  0.3
 tags:

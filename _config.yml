@@ -1,7 +1,7 @@
 # Site settings
 title: Siner's DevLog
 SEOTitle: Siner's DevLog
-header-img: /img/home/stack.png
+header-img: img/home/stack.png
 email: siner308@gmail.com
 description: "Siner's DevLog"
 keyword: "Siner, backend, 개발자, 블로그"
@@ -80,7 +80,7 @@ ga_domain: siner308.github.io
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Backend Developer<br>Hardstyle DJ<br><br>South Korea"
-sidebar-avatar: /img/siner_logo.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/siner_logo.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 

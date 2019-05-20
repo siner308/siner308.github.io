@@ -3,7 +3,7 @@ layout: post
 title:  "가상환경(Virtualenv)로 장고(Django) 시작하기"
 subtitle: ""
 author: "Siner"
-header-img: "/img/django/django-virtualenv.jpg"
+header-img: "img/django/django-virtualenv.jpg"
 catalog: true
 header-mask:  0.3
 tags:

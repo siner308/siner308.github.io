@@ -3,7 +3,7 @@ layout: post
 title:  "파이썬(Python3)으로 왓쓰리워즈(what3words, W3W)를 이용해보자."
 subtitle: "60년만에 나타난 새로운 주소체계"
 author: "Siner"
-header-img: "/img/post_headers/2019-05-20-what3words.png"
+header-img: "img/post_headers/2019-05-20-what3words.png"
 catalog: true
 header-mask:  0.3
 tags:
