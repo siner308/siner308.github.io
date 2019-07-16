@@ -8,6 +8,10 @@ catalog: true
 header-mask:  0.3
 tags:
     - Python
+    - AWS
+    - S3
+    - Storage
+    - Cloud
 date:   2019-07-17
 multilingual: false
 ---
