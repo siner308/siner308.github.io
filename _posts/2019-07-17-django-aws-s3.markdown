@@ -8,6 +8,7 @@ catalog: true
 header-mask:  0.3
 tags:
     - Python
+    - Django
     - AWS
     - S3
     - Storage
