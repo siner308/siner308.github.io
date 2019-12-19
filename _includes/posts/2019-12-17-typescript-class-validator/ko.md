@@ -31,12 +31,12 @@ userId     : 문자 (UUID ver.4 형식)
 createDate : 날짜
 ```
 
-## 4. Example
-정상적인 Request Data의 `예시`는 아래와 같습니다.
+## 4. Sample Data
+정상적인 Request Data `Sample`은 아래와 같습니다.
 ```json
 {
-  "title": "this post is for class-validator",
-  "text": "hello world!!",
+  "title": "My Best Title",
+  "text": "this is a great post about hello world!!",
   "rating": 8,
   "email": "siner308@gmail.com",
   "site": "siner308.github.io",
