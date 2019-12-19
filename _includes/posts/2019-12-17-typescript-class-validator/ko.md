@@ -6,33 +6,34 @@
 
 ## 1. Data Validation
 
-> Data Validation(데이터 유효성 검사)이란, 다루는 데이터가 올바른 `포맷`을 가지는지 확인하는 과정입니다.
->[https://en.wikipedia.org/wiki/Data_validation](https://en.wikipedia.org/wiki/Data_validation)
-
+>[Data Validation(데이터 유효성 검사)](https://en.wikipedia.org/wiki/Data_validation)이란,<br>
+>다루는 데이터가 올바른 `Format`을 가지는지 확인하는 과정입니다.
 
 ## 2. class-validator
 >[typestack/class-validator](https://github.com/typestack/class-validator)<br>
 >데코레이터 및 비 데코레이터 기반 검증을 사용할 수 있습니다.<br>
 >내부적으로 [validator.js](https://github.com/chriso/validator.js)를 사용하여 유효성 검사를 수행합니다.<br>
 >class-validator는 브라우저 및 node.js 플랫폼 모두에서 작동합니다.
+
 ```bash
 npm install class-validator --save
 ```
 
 ## 3. Format
-정상적인 Request Data 아래의 `Format`을 충족해야 한다고 가정해봅시다.
-```
-title      : 문자 (길이가 10 ~ 20인 문자열)
-text       : 문자 (hello 를 포함해야함)
-rating     : 숫자 (크기 : min=0, max=10)
-email      : 문자 (Email 형식)
-site       : 도메인
-userId     : 문자 (UUID ver.4 형식)
-createDate : 날짜
+정상적인 데이터는 아래의 `Format`을 충족해야 한다고 설정해봅시다.
+```yaml
+title      : string (minLength=10, maxLength=20)
+text       : string (hello 를 포함해야함)
+rating     : number (minValue=0, maxValue=10)
+email      : string (Email)
+site       : string (FQDN)
+userId     : string (UUID ver.4)
+createDate : date
 ```
 
 ## 4. Sample Data
 정상적인 Request Data `Sample`은 아래와 같습니다.
+
 ```json
 {
   "title": "My Best Title",
