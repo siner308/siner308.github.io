@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[번역] Dockerfile 레퍼런스 (2)"
-subtitle: "Buildkit 소개"
+title:  "[번역] Dockerfile 레퍼런스 (2) - Buildkit"
+subtitle: "동시성을 가지며, 캐시 효율적이며 Dockerfile에 독립적인 빌더 툴킷"
 author: "Siner"
 header-img: "img/post_headers/dockerfile-commands.png"
 catalog: true
