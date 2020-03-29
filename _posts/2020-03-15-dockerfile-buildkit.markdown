@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[번역] Dockerfile 레퍼런스 (1)"
-subtitle: "소개 및 사용방법"
+title:  "[번역] Dockerfile 레퍼런스 (2)"
+subtitle: "Buildkit 소개"
 author: "Siner"
 header-img: "img/post_headers/dockerfile-commands.png"
 catalog: true
@@ -14,6 +14,6 @@ multilingual: false
 ---
 <!-- Chinese Version -->
 <div class="zh post-container">
-    {% capture about_zh %}{% include posts/2020-03-08-dockerfile-usage/ko.md %}{% endcapture %}
+    {% capture about_zh %}{% include posts/2020-03-15-dockerfile-buildkit/ko.md %}{% endcapture %}
     {{ about_zh | markdownify }}
 </div>
