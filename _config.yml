@@ -5,7 +5,7 @@ header-img: img/home/stack.png
 email: siner308@gmail.com
 description: "Siner's DevLog"
 keyword: "Siner, backend, 개발자, 블로그"
-url: "https://siner308.github.io"              # your host, for absolute URL
+url: "https://blog.siner.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -73,7 +73,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-132357522-1'            # Format: UA-xxxxxx-xx
-ga_domain: siner308.github.io
+ga_domain: blog.siner.io
 
 
 
